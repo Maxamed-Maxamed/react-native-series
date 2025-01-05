@@ -1,7 +1,8 @@
 import { View, Text, StyleSheet, ImageBackground } from 'react-native';
 import React from 'react';
 
-const iceCoffeeImg = require('@/assets/images/iced-coffee.png');
+// const iceCoffeeImg = require('@/assets/images/iced-coffee.png');
+import iceCoffeeImg from '@/assets/images/iced-coffee.png';
 
 const app = () => {
   return (
@@ -29,7 +30,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: 'red',
+    color: 'white',
     textAlign: 'center',
     marginTop: 20,
   },
