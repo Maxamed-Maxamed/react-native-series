@@ -1,7 +1,6 @@
 import { View, Text, StyleSheet, ImageBackground } from 'react-native';
 import React from 'react';
 
-// const iceCoffeeImg = require('@/assets/images/iced-coffee.png');
 import iceCoffeeImg from '@/assets/images/iced-coffee.png';
 
 const app = () => {
@@ -33,6 +32,7 @@ const styles = StyleSheet.create({
     color: 'white',
     textAlign: 'center',
     marginTop: 20,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
 
   image: {
