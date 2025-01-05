@@ -15,6 +15,7 @@
     "**/*.jsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "app/types/images.d.ts"
+    "app/types/images.d.ts",
+    "app/types/asset.d.ts",
   ]
 }
